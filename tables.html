@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Patient Registration Form</title>
+
+    <style>
+        body {
+            background-color: yellow;
+        }
+
+        h1 {
+            color: orange;
+            background: pink;
+            text-align: center;
+        }
+
+        table {
+            border: 3px solid black;
+            border-collapse: collapse;
+            width: 70%;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Patient Registration Form</h2>
+
+<form>
+
+<table>
+
+    <tr>
+        <th>Field</th>
+        <th>Input</th>
+    </tr>
+
+    <tr>
+        <td>Name</td>
+        <td><input type="text" name="name"></td>
+    </tr>
+
+    <tr>
+        <td>Age / Date of Birth</td>
+        <td><input type="date" name="dob"></td>
+    </tr>
+
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </td>
+    </tr>
+
+    <tr>
+        <td>ID Number</td>
+        <td><input type="text" name="id_number"></td>
+    </tr>
+
+    <tr>
+        <td>Patient ID</td>
+        <td><input type="text" name="patient_id"></td>
+    </tr>
+
+    <tr>
+        <td>Phone Number</td>
+        <td><input type="text" name="phone"></td>
+    </tr>
+
+    <tr>
+        <td>Health Status</td>
+        <td>
+            <input type="checkbox" name="health" value="Healthy"> Healthy
+            <input type="checkbox" name="health" value="chronic illness"> Chronic illness
+            <input type="checkbox" name="health" value="Under Treatment"> Under Treatment
+        </td>
+    </tr>
+
+    <tr>
+        <td>Address</td>
+        <td><input type="text" name="address"></td>
+    </tr>
+
+    <tr>
+        <td>Marital Status</td>
+        <td>
+            <input type="radio" name="marital" value="Single"> Single
+            <input type="radio" name="marital" value="Married"> Married
+            <input type="radio" name="marital" value="Divorced"> Divorced
+            <input type="radio" name="marital" value="Widowed"> Widowed
+        </td>
+    </tr>
+
+    <tr>
+        <td>Next of Kin</td>
+        <td><input type="text" name="next_of_kin"></td>
+    </tr>
+
+    <tr>
+        <td>Weight</td>
+        <td>
+            <input type="radio" name="weight" value="Below 50kg"> Below 50 kg
+            <input type="radio" name="weight" value="50-70kg"> 50–70 kg
+            <input type="radio" name="weight" value="Above 70kg"> Above 70 kg
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </td>
+    </tr>
+
+</table>
+
+</form>
+</body>
+</head>
+</html>
